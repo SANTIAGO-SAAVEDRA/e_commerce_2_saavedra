@@ -1,21 +1,22 @@
-  
-import Header from "./Header"
+
 import NavBar from "./NavBar/NavBar"
 import Titulo from "Titulo"
-import ItemListContainer from "./ItemListContainer"
+import ItemListContainer from "./ItemListContainer/ItemListContainer"
 
 
 // const App = () => {
 export default function App() {
 
+    const greeting = "Bienvenid@!";
+
     return (
         <>
             <Titulo/>
             <NavBar/>
-            {/* <p><ItemListContainer prop={greeting}/></p> */}
-        </>
+            <p><ItemListContainer prop={greeting}/></p>
     )
-}
+</>
+)}
 
 export default App
 
